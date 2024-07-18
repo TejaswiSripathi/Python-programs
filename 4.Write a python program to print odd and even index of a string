@@ -1,0 +1,11 @@
+s=input('enter:')
+i=0
+print('even characters:')
+while i<len(s):
+    print(s[i])
+    i+=2
+j=1
+print('odd characters:')
+while j<len(s):
+    print(s[j])
+    j+=2
