@@ -1,0 +1,22 @@
+class Calculator:
+    def add(self,x,y):
+        return x+y
+    def subtract(self,x,y):
+        return x-y
+    def multiply(self,x,y):
+        return x*y
+    def division(self,x,y):
+        if y!=0:
+            return x/y
+        else:
+            return("cannot divisible by zero")
+calculator=Calculator()
+result=calculator.add(2,5)
+print("2+5:\n",result)
+result=calculator.subtract(34,21)
+print("34-21:\n",result)
+result=calculator.multiply(26,2)
+print("26*2:\n",result)
+result=calculator.division(144,2)
+print("144/2:\n",result)
+
