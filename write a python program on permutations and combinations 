@@ -1,0 +1,13 @@
+import math
+def permutations(n,r):
+    if n<r:
+        return 0
+    return math.factorial(n)//math.factorial(n-r)
+def combinations(n,r):
+    if n<r:
+        return 0
+    return math.factorial(n)//(math.factorial(r)*math.factorial(n-r))
+n=int(input("enter:"))
+r=int(input("enter:"))
+print(f"permutations of{n} taken {r} at a time:{permutations (n,r)}")
+print(f"combinations of{n} taken {r} at a time:{combinations (n,r)"}
