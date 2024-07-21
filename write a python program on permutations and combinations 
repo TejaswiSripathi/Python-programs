@@ -10,4 +10,4 @@ def combinations(n,r):
 n=int(input("enter:"))
 r=int(input("enter:"))
 print(f"permutations of{n} taken {r} at a time:{permutations (n,r)}")
-print(f"combinations of{n} taken {r} at a time:{combinations (n,r)"}
+print(f"combinations of{n} taken {r} at a time:{combinations (n,r)}")
