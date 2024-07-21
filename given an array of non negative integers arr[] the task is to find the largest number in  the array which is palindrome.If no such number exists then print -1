@@ -1,0 +1,11 @@
+def palindrome(a):
+    return str(a)==str(a)[::-1]
+def largest_pal(arr):
+    p=(num for num in arr if palindrome(num))
+    return max(p)
+arr=[12,23,232]
+largest=largest_pal(arr)
+if largest:
+    print("the largest palindraome is:",largest)
+else:
+    print("-1)
