@@ -1,0 +1,6 @@
+a=5;b=8
+print("before swapping:",a,b)
+a=a+b
+b=a-b
+a=a-b
+print("after swapping:",a,b)
