@@ -1,0 +1,16 @@
+num=input("enter the numbers seperated by space:")
+list1=num.split(" ")
+print(list1)
+count=0
+for i in list1:
+    count=count+1
+print(count)
+for i in range(count):
+    list1[i]=int(list1[i])
+print(list1)
+maximum_num=list1[0]
+print(maximum_num)
+for i in list1:
+    if i>maximum_num:
+        maximum_num=i
+print(maximum_num)
